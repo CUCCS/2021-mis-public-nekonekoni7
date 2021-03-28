@@ -260,11 +260,11 @@
 
     正常模式下，手机正常连接
 
-    ![img](img/hhd.JPG)
+    ![img](img/hhd.jpg)
 
     HIDE SSID模式下，手机无法搜索到无线信号，需输入名称连接
 
-    ![img](img/zzc.JPG)
+    ![img](img/zzc.jpg)
 
     
 
