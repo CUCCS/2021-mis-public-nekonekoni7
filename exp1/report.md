@@ -129,7 +129,7 @@
     OpenWrt 安装到 VirtualBox 之后，由于 VirtualBox 本身无法提供无线网卡的虚拟化仿真功能。所以如果需要在虚拟机中的 OpenWrt 开启无线网络支持，需要借助无线网卡硬件设备。
 
     设置USB
-    ![img](img/usb.PNG)
+    ![img](img/USB.PNG)
 
     状态栏中指定USB设备状态为已选中（√）
     ![img](img/UOK.PNG)
@@ -260,11 +260,11 @@
 
     正常模式下，手机正常连接
 
-    ![img](img/hhd.JPG)
+    ![img](img/hhd.jpg)
 
     HIDE SSID模式下，手机无法搜索到无线信号，需输入名称连接
 
-    ![img](img/zzc.JPG)
+    ![img](img/zzc.jpg)
 
     
 
