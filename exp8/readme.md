@@ -108,7 +108,7 @@ adb install InsecureBankv2.apk
 
 1. 解压`InsecureBankv2.apk`;
 
-   ![img](img/extract.png)
+   ![img](img/extract.PNG)
 
 2. 将` classes.dex `拷贝到`dex2jar`目录下 ,执行命令转为.jar文件；
 
@@ -116,7 +116,7 @@ adb install InsecureBankv2.apk
    d2j-dex2jar.bat classes.dex
    ```
 
-   ![img](img/classjar.png)
+   ![img](img/classjar.PNG)
 
 3. 使用`jadx GUI`打开生成的jar文件,在`DoLgin`中我们发现，用户名`devadmin`有与其他用户名不一样的运行逻辑。
 
@@ -124,7 +124,7 @@ adb install InsecureBankv2.apk
     ./jadx-gui dex2jar/classes-dex2jar.jar
    ```
 
-   ![img](img/devadmin.png)
+   ![img](img/devadmin.PNG)
 
    实验发现可以使用这个用户名可以用任意密码登陆到`app`中。因此，如果开发者在开发应用的时候留了后门，入侵者知道了后门，非常容易绕过验证破解成功。
 
